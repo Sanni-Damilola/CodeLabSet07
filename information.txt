@@ -15,13 +15,14 @@ Make Reseach on FindOne (Mongoose Method)
 
 HOW TO SUBMIT_______👇
 1st_Step: Follow 👉 https://github.com/Sanni-Damilola (Controll Click the url to access the link)
-2nd_Step: Send the url to 👉 08183389407 or +2348183389407
+2nd_Step: star the Repository
+3rd_Step: Send the url to 👉 08183389407 or +2348183389407
 
 let penalty = "Bring Malt"
 
-if(!1st_Step || !2nd_Step) {
+if(!1st_Step || !3rd_Step) {
     console.log("ASSIGNMENT NOT DONE", penalty)
-} else(!1st_Step && !2nd_Step) {
+} else(!1st_Step && !3rd_Step) {
     console.log(`ASSIGNMENT DONE No ${penalty}`, )
 } 
 

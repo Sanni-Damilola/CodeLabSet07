@@ -12,7 +12,7 @@ const getAllBooks = async (req: Request, res: Response): Promise<Response> => {
       });
     } else {
       return res.status(200).json({
-        message: "No books found",
+        message: "No books Avaliable",
       });
     }
   } catch (error) {
