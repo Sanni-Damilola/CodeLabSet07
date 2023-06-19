@@ -1,0 +1,29 @@
+ASSIGNMENT
+___________
+
+
+CODES ASSIGNMENT
+________________
+email: email should be unique, (No two author must have same emails)
+search: (Function in Controller)
+
+
+THEORY ASSIGNMENT
+_________________
+Make Reseach on FindOne (Mongoose Method)
+
+
+HOW TO SUBMIT_______👇
+1st_Step: Follow 👉 https://github.com/Sanni-Damilola (Controll Click the url to access the link)
+2nd_Step: Send the url to 👉 08183389407 or +2348183389407
+
+let penalty = "Bring Malt"
+
+if(!1st_Step || !2nd_Step) {
+    console.log("ASSIGNMENT NOT DONE", penalty)
+} else(!1st_Step && !2nd_Step) {
+    console.log(`ASSIGNMENT DONE No ${penalty}`, )
+} 
+
+
+Best of luck✔😉

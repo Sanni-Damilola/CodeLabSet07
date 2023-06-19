@@ -1,0 +1,20 @@
+{
+  "name": "phase1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only index.js",
+    "start": "ts-node-dev --respawn --transpile-only index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.4",
+    "ts-node-dev": "^2.0.0"
+  }
+}
