@@ -14,16 +14,19 @@ interface Ibook {
 // interface bookStore extends Ibook, mongoose.Document {}
 interface bookStore extends Ibook, Document {}
 
-const bookSchema = new mongoose.Schema<Ibook>({
-  author_Image: String,
-  author_name: String,
-  book_Title: String,
-  cover_image: String,
-  description: String,
-  email: String,
-  isbn: String,
-  views: [],
-});
+const bookSchema = new mongoose.Schema<Ibook>(
+  {
+    author_Image: String,
+    author_name: String,
+    book_Title: String,
+    cover_image: String,
+    description: String,
+    email: String,
+    isbn: String,
+    views: [],
+  },
+  { timestamps: true }
+);
 
 const bookModel = mongoose.model<bookStore>("BookStoreCollection", bookSchema);
 

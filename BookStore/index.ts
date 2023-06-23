@@ -1,10 +1,10 @@
 import express, { Application, Request, Response } from "express";
-import mongoose from "./config/db";
+import config from "./config/db";
 import cors from "cors";
 import router from "./Router/bookRouter";
 
 const port: number = 2001;
-mongoose;
+config;
 
 const app: Application = express();
 
